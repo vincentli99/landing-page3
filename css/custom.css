@@ -1,0 +1,12 @@
+/* This file is created by Wesley for customizing from original template */
+
+h1 {
+	color: white;
+}
+
+.text-small {
+	/* font-size: 50%; doesn't work */
+	/*font-size: 2em; */
+	font-size: 30px;
+	color: white;
+}
