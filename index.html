@@ -44,7 +44,8 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <!-- wesley: add wow and bounceInDown -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top wow bounceInDown" data-wow-delay="0.4s">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -54,8 +55,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Atriva Media</a>
+                <!--<a class="navbar-brand page-scroll" href="#page-top">Atriva Media</a>-->
+                <a href="#"><img src="img/logo.png" title="AtrivaMedia" /></a>
             </div>
+
+            <!-- wesley: add Logo image
+            <div class="container"> 
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" title="AtrivaMedia" /></a>
+                </div>
+            </div> -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -82,8 +91,8 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Enjoy all your photos and videos never easier</h1>
-                <h2 class="text-small">Effortless share, unify and preserve your lifetime memories organized</h2>
+                <h1>Easy to Enjoy All Your Photos and Videos!</h1>
+                <h2 class="text-small">Effortlessly share, organize and preserve your lifetime memories</h2>
                 <hr>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
@@ -94,9 +103,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Personal Media Channels Put All Your Media at Your Fingertip!</h2>
+                    <h2 class="section-heading">Your Perfect Media Companion Holds All Your Media in One Place!</h2>
                     <hr class="light">
-                    <p class="text-faded">Our mobile Apps help you to store, organize and share your valuable photos and videos, all your friends and family can either enjoy instantly or preserve for years or decades!</p>
+                    <p class="text-faded">We provide a cloud-based media service that helps you to store, organize, share or live stream your valuable photos and videos, All your friends and family can not only enjoy instantly but also preserve for years or decades.</p>
                     <!--- wesley: remove button
                     <a href="#" class="btn btn-default btn-xl">Get Started!</a>
                     -->
@@ -116,44 +125,82 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
-                        
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Instant Share</h3>
-                        <p class="text-muted">Shared media channels to the usual people as easy as adding photos</p>
+                        <i class="fa fa-4x fa-group wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Easily Collaborate</h3>
+                        <p class="text-muted">All friends and family can contribute photos and videos for the same event</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+
+                <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Easily Join</h3>
-                        <p class="text-muted">Joint media channels for people to contribute on a shared event without missing any details</p>
+                        <h3>Family Friendly</h3>
+                        <p class="text-muted">Easy to use by all family no matter the level of their technical expertise</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+
+                <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <!-- move away from fa-newspaper-o -->
+                        <i class="fa fa-4x fa-filter wow bounceIn text-primary" data-wow-delay=".2s"></i>
                         <h3>Auto organize</h3>
-                        <p class="text-muted">Organize everything into albums by face/time/location/scene/device or contributor</p>
+                        <p class="text-muted">Organize everything into albums according to who's in your photos, time taken, location, devices or contributor</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+            </div> <!-- row -->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Instant Share</h3>
+                        <p class="text-muted">Sharing whole stories to friends and family is as easy as adding photos</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="service-box">
+                        <!-- move away  from fa-diamond -->
+                        <i class="fa fa-4x fa-lock wow bounceIn text-primary"></i>
                         <h3>Strict Privacy</h3>
-                        <p class="text-muted">Easily control who and how long your media channels are shared</p>
+                        <p class="text-muted">Easily control who sees your media and how long your media channels are shared</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="service-box">
+                        <!-- move away  from fa-diamond -->
+                        <i class="fa fa-4x fa-shield wow bounceIn text-primary"></i>
+                        <h3>Top Notch Security</h3>
+                        <p class="text-muted">End-to-end encryption with bank-level security algorithms</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="channels">
+    <section class="no-padding bg-primary" id="channels">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p></p>
+                    <h2 class="section-heading">Personalized Media Channels for All Your Photos and Videos!</h2>
+                    <hr class="light">
+                    <p class="text-faded">You can keep all your photos and videos organized in media channels, no matter if there are from smartphones, cameras or your friends and family.</p>
+                    <!--- wesley: remove button
+                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    -->
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <!--<a href="#" class="portfolio-box"> -->
+                    <div class="portfolio-box">
                         <img src="img/portfolio/baby2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -161,14 +208,16 @@
                                     <h4>Jenny Baby</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>This can be a shared channel for your close family</p>
+                                    <p>Share your favorite baby photos with close relatives in one easily accessible, privacy-protected channel.</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    <!--</a> -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <!-- <a href="#" class="portfolio-box"> -->
+                    <div class="portfolio-box">
                         <img src="img/portfolio/kids_sports2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -176,29 +225,31 @@
                                     <h4>Kid's Activities</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>This can be a joint channel with your spouse for all activities of the kids</p>
+                                    <p>Collaborate this channel with your spouse for all kids activities.</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/all_family2.jpg" class="img-responsive" alt="">
+                    <!--<a href="#" class="portfolio-box">-->
+                    <div class="portfolio-box">
+                        <img src="img/portfolio/grandparent.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     <h4>Family Pictures for Grandpa</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>You can share a channel to grandparent for family get-together!</p>
+                                    <p>Share this channel to grandparent for family get-together!</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <!--<a href="#" class="portfolio-box">-->
+                    <div class="portfolio-box">
                         <img src="img/portfolio/banff2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -206,29 +257,31 @@
                                     <h4>Travel</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>This can the channel for all your annual family trips!</p>
+                                    <p>Collaborate with your family on this memorable family trips!</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/venice2.jpg" class="img-responsive" alt="">
+                    <!-- <a href="#" class="portfolio-box"> -->
+                    <div class="portfolio-box">
+                        <img src="img/portfolio/wedding3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
                                     <h4>Once in a life time</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>This can be your private collections for your once-in-a-lifetime trips!</p>
+                                    <p>Keep the wedding photos easily accessible and enjoyable in this channel!</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <!-- <a href="#" class="portfolio-box"> -->
+                    <div class="portfolio-box">
                         <img src="img/portfolio/party-2-2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -236,11 +289,11 @@
                                     <h4>Parties</h4>
                                 </div>
                                 <div class="project-name">
-                                    <p>This can be a shared channel for social events with your buddies!</p>
+                                    <p>Share the hangout photos with your buddies!</p>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -287,8 +340,11 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">We'll inform you when it's ready!</h2>
                     <hr class="primary">
-            <!--</div> -->
-            <!--<div class="col-md-12"> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- <div class="col-md-12"> -->
+            <div class="col-lg-8 col-lg-offset-2 text-center">
             <!--begin Wufoo-->
             <form id="form2" name="form2" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://atrivamedia.wufoo.com/forms/m10pyioq0oweoy2/#public">
               <!--<h2>We'll inform you when it's ready</h2>-->
@@ -297,9 +353,9 @@
                   <div class="form-group">
                     <label class="desc" id="title1" for="Field1"></label>
                   
-                    <div class="input-group" style="margin:auto;"> <!-- wesley: make it center: doesn't work -->
+                    <!-- <div class="input-group" style="margin:auto;">  wesley: make it center: doesn't work -->
                     <input id="Field6" name="Field6" type="email" spellcheck="false" class="field text medium form-control" placeholder="Please enter your email address" maxlength="255" tabindex="1" required />
-                    </div> <!-- wesley: make it center -->
+                    <!-- </div>  wesley: make it center -->
                   </div>
                 </li> 
                 <li class="buttons ">
@@ -316,7 +372,7 @@
               </ul>
             </form>
             <!--end Wufoo-->
-
+            </div>
           </div>     
         </div>
       </div>

@@ -10,3 +10,8 @@ h1 {
 	font-size: 30px;
 	color: white;
 }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
